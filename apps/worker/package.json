@@ -1,0 +1,17 @@
+{
+  "name": "worker.yusuke.run",
+  "version": "0.0.1",
+  "main": "src/index.ts",
+  "scripts": {
+    "dev": "wrangler dev src/index.ts",
+    "deploy": "wrangler publish src/index.ts"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "hono": "^2.2.5"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^3.17.0",
+    "wrangler": "^2.1.11"
+  }
+}

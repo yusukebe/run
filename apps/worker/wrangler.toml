@@ -1,0 +1,9 @@
+name = "worker-yusuke-run"
+main = "src/index.ts"
+
+workers_dev = false
+routes = [
+	{ pattern = "worker.yusuke.run", custom_domain = true, zone_name = "yusuke.run" }
+]
+
+compatibility_date = "2022-10-14"
